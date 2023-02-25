@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
-  const[btnState, setBtnState] =useState(true);
+  const[btnState, setBtnState] =useState(false);
   
   const handleClick = ()=>{
     setBtnState(!btnState)
